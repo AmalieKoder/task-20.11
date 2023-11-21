@@ -1,10 +1,13 @@
+// Henter fra Html til Javascript
+
 const changeText = document.querySelector("#changeText");
 const p = document.querySelector("#p");
 const icon = document.querySelector("#button");
 const Exorcist = document.querySelector("#exorcist");
 
 
-
+// Når du trykker en knapp med denne Emojien 💙 da shifter du et tema.
+// Men hvis du trykker på denne emojien 👺 da shifter den tilbake på første temaet.
 
 function themeToggle() {
     var element = document.body;
