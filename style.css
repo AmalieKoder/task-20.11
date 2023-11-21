@@ -41,6 +41,16 @@ button {
 
 @media (max-width: 426px) {
     .lightToggle {
-        background-image: url(img/phone.jpg);
+        background-image: url(img/iphone.jpg);
+        background-attachment: fixed;
+   background-position: 50% 50%;
+   background-repeat: no-repeat;
+    }
+
+    .darkToggle {
+        background-image: url(img/Iphone1.jpg);
+        background-attachment: fixed;
+   background-position: 50% 50%;
+   background-repeat: no-repeat;
     }
 }
