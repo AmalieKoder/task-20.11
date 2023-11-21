@@ -3,10 +3,11 @@ body {
 }
 
 .lightToggle {
-   background-image: url("/img/slayer.jpg");
-   background-attachment: fixed;
-   background-position: 50% 50%;
-   background-repeat: no-repeat;
+   background-image: url("/img/rengeku.jpg");
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
    height: 500px;
   
    color: white;
@@ -14,8 +15,10 @@ body {
 
 .darkToggle {
     background-image: url("img/blue.jpeg");
-    background-attachment: fixed;
-  background-position: 50% 50%;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
     height: 400px;
     color: white;
 }
@@ -42,17 +45,19 @@ button {
 @media (max-width: 614px) {
     .lightToggle {
         background-image: url(img/iphone.jpg);
-        background-attachment: fixed;
-   background-position: 50%;
-   background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
 
    
 
     .darkToggle {
         background-image: url(img/iphone2.jpg);
-        background-attachment: fixed;
-   background-position: 50% 50%;
-   background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
 }
