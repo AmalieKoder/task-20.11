@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+}
+
+.lightToggle {
+   background-image: url("/img/slayer.jpg");
+   background-attachment: fixed;
+   background-position: 50% 50%;
+   background-repeat: no-repeat;
+   height: 500px;
+  
+   color: wheat;
+}
+
+.darkToggle {
+    background-image: url("img/blue.jpeg");
+    background-attachment: fixed;
+  background-position: 50% 50%;
+    height: 400px;
+    color: white;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    font-style: italic;
+    font-size: large;
+    max-width: 500px;
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+    font-size: 30px;
+}
