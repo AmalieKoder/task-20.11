@@ -43,7 +43,7 @@ button {
     .lightToggle {
         background-image: url(img/iphone.jpg);
         background-attachment: fixed;
-   background-position: 50% 50%;
+   background-position: 50%;
    background-repeat: no-repeat;
     }
 
