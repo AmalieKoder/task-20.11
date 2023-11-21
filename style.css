@@ -50,6 +50,9 @@ button {
    
 
     .darkToggle {
-        background-image: url(img/okumara.jpeg);
+        background-image: url(img/Iphone1.jpg);
+        background-attachment: fixed;
+   background-position: 50% 50%;
+   background-repeat: no-repeat;
     }
 }
