@@ -47,6 +47,10 @@ button {
    background-repeat: no-repeat;
     }
 
+    .text {
+        font-size: 50px;
+    }
+
     .darkToggle {
         background-image: url(img/Iphone1.jpg);
         background-attachment: fixed;
