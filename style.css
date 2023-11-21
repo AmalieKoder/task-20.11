@@ -3,14 +3,18 @@ body {
 }
 
 .lightToggle {
-   background-image: url("/img/rengeku.jpg");
+   background-image: url("/img/nezuko.jpg");
    -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-   height: 500px;
+   height: 600px;
   
-   color: white;
+   color: #FFFFFF;
+
+text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+color: #FFFFFF;
+
 }
 
 .darkToggle {
