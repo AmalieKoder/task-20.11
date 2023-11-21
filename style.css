@@ -39,7 +39,7 @@ button {
     font-size: 30px;
 }
 
-@media (max-width: 426px) {
+@media (max-width: 614px) {
     .lightToggle {
         background-image: url(img/iphone.jpg);
         background-attachment: fixed;
