@@ -38,3 +38,9 @@ button {
     cursor: pointer;
     font-size: 30px;
 }
+
+@media (max-width: 426px) {
+    .lightToggle {
+        background-image: url(img/phone.jpg);
+    }
+}
